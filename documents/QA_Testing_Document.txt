@@ -1,0 +1,112 @@
+Supplier Management System
+QA and Testing Document
+
+1. Introduction
+
+This QA and Testing Document is prepared for the Supplier Management System. The purpose of this document is to check whether all major features of the system are working correctly or not.
+
+2. Testing Objective
+
+1. Verify that the system works according to requirements.
+2. Check all CRUD operations.
+3. Check form validation.
+4. Check calculation logic.
+5. Check login and logout functionality.
+6. Check responsive design.
+7. Identify and fix bugs before submission.
+8. Make sure dummy data is used only.
+
+3. Test Environment
+
+Project Name: Supplier Management System
+Frontend: React.js
+Backend: Node.js and Express.js
+Database: MongoDB
+Browser Used: Google Chrome
+Testing Type: Manual Testing
+
+4. Test Cases
+
+Test Case 1: Public Website Opens
+Steps: Open website URL and check Home, About, Features, Contact, and Login pages.
+Expected Result: All public pages should open properly.
+Status: Passed
+
+Test Case 2: Admin Login With Valid Credentials
+Steps: Enter admin@supplier.com and admin123, then click login.
+Expected Result: Admin should be redirected to dashboard.
+Status: Passed
+
+Test Case 3: Admin Login With Invalid Credentials
+Steps: Enter wrong email or password and click login.
+Expected Result: System should show invalid login message.
+Status: Passed
+
+Test Case 4: Add Supplier With Valid Data
+Steps: Open supplier module, enter valid details, and save.
+Expected Result: Supplier should be added successfully.
+Status: Passed
+
+Test Case 5: Add Supplier Without Required Fields
+Steps: Keep required fields empty and click save.
+Expected Result: System should show validation message.
+Status: Passed
+
+Test Case 6: Edit Supplier
+Steps: Edit supplier detail and click update.
+Expected Result: Supplier should update successfully.
+Status: Passed
+
+Test Case 7: Delete Supplier
+Steps: Click delete and confirm action.
+Expected Result: Supplier should be deleted.
+Status: Passed
+
+Test Case 8: Add Supplier Category
+Steps: Enter category name and status, then save.
+Expected Result: Category should be added successfully.
+Status: Passed
+
+Test Case 9: Add Item
+Steps: Enter item name, supplier, unit, and rate, then save.
+Expected Result: Item should be added successfully.
+Status: Passed
+
+Test Case 10: Create Purchase Order
+Steps: Select supplier, add items, quantity and rate, then save.
+Expected Result: Purchase order should be created and total should calculate correctly.
+Status: Passed
+
+Test Case 11: Add Payment
+Steps: Select purchase order, enter paid amount, and save.
+Expected Result: Payment should be saved and due amount should calculate correctly.
+Status: Passed
+
+Test Case 12: Report Page
+Steps: Open reports module and check supplier, purchase, payment, and due report.
+Expected Result: Reports should display related data.
+Status: Passed
+
+Test Case 13: Responsive Design
+Steps: Open website and admin panel on mobile screen.
+Expected Result: Layout should display properly.
+Status: Passed
+
+Test Case 14: No Real Client Data Used
+Steps: Review database and UI records.
+Expected Result: Only dummy data should be used.
+Status: Passed
+
+5. Bug Fixing Notes
+
+1. Required field validation added.
+2. Invalid login message added.
+3. Purchase order total calculation checked.
+4. Payment due amount calculation checked.
+5. Mobile responsive layout checked.
+6. Search and filter checked.
+7. Dummy data only used.
+
+6. Conclusion
+
+The Supplier Management System was tested manually. The main modules are working properly and the system is ready for intern-level practical project submission.

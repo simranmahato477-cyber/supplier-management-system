@@ -1,0 +1,165 @@
+Supplier Management System
+Research Document
+
+1. Introduction
+
+Supplier Management System is a web-based system designed to help businesses manage supplier records, purchase orders, supplied items, payments, and due amounts in a digital way.
+
+In many small and medium businesses, supplier records are still managed manually using notebooks, Excel sheets, or paper files. This creates problems when the business needs to find supplier details, check purchase history, calculate due payments, or prepare supplier reports.
+
+This project aims to provide a simple and practical system where the admin can manage supplier information, create purchase orders, record payments, and view basic reports from one management panel.
+
+2. Business Workflow
+
+1. The business identifies the required goods or services.
+2. The admin adds supplier details in the system.
+3. The admin adds supplier category.
+4. The admin adds items supplied by the supplier.
+5. The admin creates a purchase order.
+6. The supplier delivers goods.
+7. The admin updates the purchase order status.
+8. The admin records payment.
+9. The system calculates due amount.
+10. The admin views reports.
+
+3. Problems in Manual System
+
+1. Supplier details can be lost or misplaced.
+2. Purchase order records are difficult to manage.
+3. Due payment records may be forgotten.
+4. Manual calculation can create errors.
+5. Searching old supplier details takes time.
+6. Supplier-wise purchase history is difficult to find.
+7. There is no proper dashboard or report.
+8. Business owners cannot quickly know pending orders and payments.
+
+4. Proposed Solution
+
+The proposed Supplier Management System will provide a digital platform where the admin can manage suppliers, supplier categories, items, purchase orders, payments, and reports.
+
+The system will include a public website and an admin panel. The public website will provide basic information about the system, and the admin panel will be used to manage all supplier-related activities.
+
+5. System Modules
+
+1. Public website
+2. Admin login
+3. Dashboard
+4. Supplier management
+5. Supplier category management
+6. Item management
+7. Purchase order management
+8. Payment management
+9. Reports
+
+6. Requirement List
+
+Functional requirements:
+1. Login to the admin panel.
+2. View dashboard summary.
+3. Manage suppliers.
+4. Manage supplier categories.
+5. Manage items.
+6. Create and manage purchase orders.
+7. Record full or partial supplier payments.
+8. Calculate due amount automatically.
+9. Search and filter records.
+10. View basic reports.
+
+Non-functional requirements:
+1. Easy to use.
+2. Mobile responsive.
+3. Fast to load.
+4. Secure with login.
+5. Properly validated.
+6. Organized with clean folder structure.
+7. Developed using dummy data only.
+
+7. Fields
+
+Supplier fields:
+1. Supplier name
+2. Company name
+3. Contact person
+4. Phone number
+5. Email
+6. Address
+7. PAN/VAT number
+8. Supplier category
+9. Status
+10. Notes
+
+Purchase order fields:
+1. PO number
+2. Supplier
+3. Order date
+4. Expected delivery date
+5. Items
+6. Quantity
+7. Rate
+8. Item total
+9. Grand total
+10. Status
+11. Remarks
+
+Payment fields:
+1. Supplier
+2. Purchase order
+3. Total amount
+4. Paid amount
+5. Due amount
+6. Payment method
+7. Payment date
+8. Payment status
+9. Remarks
+
+8. Validation Rules
+
+1. Email and password are required for login.
+2. Supplier name and phone number are required.
+3. Email must be valid if entered.
+4. Category name is required.
+5. Item purchase rate must be greater than 0.
+6. Purchase order must contain at least one item.
+7. Quantity and rate must be greater than 0.
+8. Paid amount cannot be greater than total amount.
+9. Due amount should calculate automatically.
+
+9. System Flow
+
+Start
+Admin Login
+Dashboard
+Supplier Category
+Supplier
+Item
+Purchase Order
+Payment
+Reports
+Logout
+End
+
+10. Technology Used
+
+Frontend:
+1. React.js
+2. Vite
+3. CSS
+
+Backend:
+1. Node.js
+2. Express.js
+
+Database:
+1. MongoDB
+
+Tools:
+1. Visual Studio Code
+2. Postman
+3. GitHub
+4. MongoDB Compass
+5. Vercel, Netlify, or Render
+6. Google Drive
+
+11. Conclusion
+
+The Supplier Management System is a practical web-based project for managing supplier records, items, purchase orders, payments, and reports. This system will help businesses reduce manual work, avoid calculation mistakes, manage supplier information properly, and track purchase and payment records easily.

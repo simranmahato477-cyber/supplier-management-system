@@ -1,0 +1,98 @@
+Supplier Management System
+User Guide Document
+
+1. Introduction
+
+This User Guide explains how to use the Supplier Management System. The system is designed to help businesses manage suppliers, supplier categories, items, purchase orders, payments, and reports.
+
+2. Hosted Project URL
+
+Hosted Project URL:
+https://your-hosted-project-url.com
+
+Replace this URL with the actual hosted project URL after deployment.
+
+3. Admin Login Credentials
+
+Email: admin@supplier.com
+Password: admin123
+
+4. How to Open the System
+
+1. Open a web browser.
+2. Enter the hosted project URL.
+3. The public website will open.
+4. Click Admin Login.
+
+5. How to Login
+
+1. Open the login page.
+2. Enter admin email.
+3. Enter admin password.
+4. Click Login.
+5. Dashboard will open after successful login.
+
+6. Supplier Category Management
+
+1. Go to Supplier Categories.
+2. Click Add Category.
+3. Enter category name, description, and status.
+4. Click Save.
+5. Use Edit or Delete actions when required.
+
+7. Supplier Management
+
+1. Go to Suppliers.
+2. Click Add Supplier.
+3. Enter supplier name, company name, contact person, phone, email, address, PAN/VAT number, category, status, and notes.
+4. Click Save.
+5. Use search and status filter to find suppliers.
+6. Use Edit or Delete actions when required.
+
+8. Item Management
+
+1. Go to Items.
+2. Click Add Item.
+3. Enter item name, supplier, category, unit, purchase rate, description, and status.
+4. Click Save.
+5. Use Edit or Delete actions when required.
+
+9. Purchase Order Management
+
+1. Go to Purchase Orders.
+2. Click Create Purchase Order.
+3. Select supplier.
+4. Enter order date and expected delivery date.
+5. Add items, quantity, and rate.
+6. System will calculate item total and grand total.
+7. Select order status and click Save.
+
+10. Payment Management
+
+1. Go to Payments.
+2. Click Add Payment.
+3. Select purchase order.
+4. Enter paid amount and payment method.
+5. System will calculate due amount.
+6. Click Save.
+
+11. Reports
+
+1. Go to Reports.
+2. View supplier summary, purchase summary, payment summary, and due payment records.
+
+12. Logout
+
+1. Click Logout.
+2. The system will redirect to login page.
+
+13. Important Notes
+
+1. This project uses dummy data only.
+2. No real client data is used.
+3. Login credentials are for testing purpose only.
+4. Hosted URL should be updated after deployment.
+
+14. Conclusion
+
+The Supplier Management System is simple and easy to use. It helps the admin manage suppliers, items, purchase orders, payments, and reports from one place.
