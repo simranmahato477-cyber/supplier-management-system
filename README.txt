@@ -108,9 +108,11 @@ npm run seed
 9. Hosted Project URL
 
 Hosted Project URL:
-https://your-hosted-project-url.com
+https://supplier-management-system-two.vercel.app
 
-Replace the above URL after final deployment.
+Backend API URL:
+https://supplier-management-backend-bow8.onrender.com
+
 
 10. Dummy Data Notice
 
