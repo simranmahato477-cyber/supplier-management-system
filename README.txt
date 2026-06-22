@@ -5,32 +5,45 @@ README.txt
 
 Supplier Management System is a MERN stack web application developed to manage supplier records, supplier categories, items, purchase orders, payments, and reports.
 
-The project includes a public website and an admin panel. The admin can login and manage all supplier-related records from the dashboard.
+The project includes a public website and an admin panel. The admin can log in and manage all supplier-related records from the dashboard.
 
 2. Main Features
 
-1. Public website
-2. Admin login
-3. Dashboard summary
-4. Supplier category CRUD
-5. Supplier CRUD
-6. Item CRUD
-7. Purchase order CRUD with automatic total calculation
-8. Payment CRUD with automatic due amount calculation
-9. Reports
-10. Search and filter
-11. Form validation
-12. Responsive design
+3. Public website
 
-3. Technology Used
+4. Admin login
+
+5. Dashboard summary
+
+6. Supplier category CRUD
+
+7. Supplier CRUD
+
+8. Item CRUD
+
+9. Purchase order CRUD with automatic total calculation
+
+10. Payment CRUD with automatic due amount calculation
+
+11. Reports
+
+12. Search and filter
+
+13. Form validation
+
+14. Responsive design
+
+15. Technology Used
 
 Frontend:
+
 1. React.js
 2. Vite
 3. JavaScript
 4. CSS
 
 Backend:
+
 1. Node.js
 2. Express.js
 3. MongoDB
@@ -38,14 +51,24 @@ Backend:
 5. JWT
 
 Tools:
-1. Visual Studio Code
-2. Postman
-3. GitHub
-4. MongoDB Compass
-5. Vercel, Netlify, or Render
-6. Google Drive
 
-4. Folder Structure
+1. Visual Studio Code
+
+2. Postman
+
+3. GitHub
+
+4. MongoDB Compass
+
+5. Vercel for frontend hosting
+
+6. Render for backend hosting
+
+7. MongoDB Atlas for database hosting
+
+8. Google Drive for final submission
+
+9. Folder Structure
 
 supplier-management-system
 frontend
@@ -96,7 +119,7 @@ http://localhost:5173
 
 7. Admin Login Credentials
 
-Email: admin@supplier.com
+Email: [admin@supplier.com](mailto:admin@supplier.com)
 Password: admin123
 
 8. Optional Seed Data
@@ -107,12 +130,14 @@ npm run seed
 
 9. Hosted Project URL
 
-Hosted Project URL:
+Frontend URL:
 https://supplier-management-system-two.vercel.app
+
+Direct Dashboard URL:
+https://supplier-management-system-two.vercel.app/#/admin/dashboard
 
 Backend API URL:
 https://supplier-management-backend-bow8.onrender.com
-
 
 10. Dummy Data Notice
 
@@ -123,13 +148,19 @@ This project uses dummy data only. No real client data is used.
 The final submission folder should include:
 
 1. Codebase
+
 2. Research document
+
 3. QA/testing document
+
 4. User guide document
+
 5. README.txt
+
 6. Hosted project URL
+
 7. Login credentials
 
-12. Conclusion
+8. Conclusion
 
 This project is prepared as a practical intern assessment project. It demonstrates frontend development, admin panel development, backend/API CRUD implementation, validation, testing, documentation, and hosting preparation.
