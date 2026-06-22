@@ -6,7 +6,7 @@ import FormMessage from '../components/FormMessage.jsx';
 const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
-  const [form, setForm] = useState({ email: 'admin@supplier.com', password: 'admin123' });
+  const [form, setForm] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
